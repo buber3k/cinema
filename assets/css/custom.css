@@ -1,0 +1,299 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*==================== nav =======================*/
+
+.space50{
+    padding-top: 50px;
+}
+
+.space100{
+    padding-top: 100px;
+}
+
+nav .custom-nav .left-site{
+    display: flex;
+}
+
+nav .custom-nav .right-site{
+    display: flex;
+}
+
+.app{
+    min-height: 80vh;
+    height: 100%;
+}
+
+nav form.logout input{
+    background: transparent;
+    border: none;
+    font-weight: 700;
+}
+
+/*======================== login ==================*/
+
+
+.login-site{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.login-site form{
+    width: 400px;
+}
+
+.login-site form button{
+    margin-top: 50px;
+}
+
+
+/*===================== contact =====================*/
+
+
+.contact-site{
+    display: flex;
+    padding-top: 60px;
+}
+
+
+.contact-site .left-column{
+    width: 50%;
+    margin: 1em;
+}
+
+.contact-site .left-column h1{
+    margin: 1em;
+}
+
+.contact-site .right-column{
+    width: 50%;
+}
+
+.contact-site .right-column form button{
+    margin-top: 40px;
+}
+
+
+/*================== footer =======================*/
+
+
+
+footer p{
+    padding-top: 40px;
+}
+
+/*===================== product ==================*/
+
+
+.products-site{
+    padding-top: 50px;
+}
+
+
+/*================== user-page =================*/
+
+.user-site{
+    /*max-width: 70%;*/
+}
+
+.user-site ul.nav{
+    padding-top: 50px;
+}
+
+.user-site .user-data{
+    padding-top: 50px;
+}
+
+.user-site .user-data .head{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-site .user-data form button{
+    margin-top: 40px;
+}
+
+
+.user-site .products-list .media.custom-bought{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.user-site .products-list .media.custom-bought .media-body{
+    padding-top: 40px;
+}
+
+
+/*================= admin-page =====================*/
+
+
+.admin-site{
+    /*max-width: 70%;*/
+}
+
+.admin-site ul.nav{
+    padding-top: 50px;
+}
+
+.admin-site .admin-data{
+    padding-top: 50px;
+}
+
+.admin-site .admin-data .head{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.admin-site .admin-data form button{
+    margin-top: 40px;
+}
+
+
+
+.products-list .media.custom {
+    display: flex;
+    flex-direction: column;
+}
+
+.products-list .media.custom .media-body{
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+.products-list .media.custom .media-body .right-col{
+    display: flex;
+}
+
+.products-list .media.custom .media-body .right-col form{
+    margin-left: 20px;
+}
+
+
+
+
+/*================== produkty ================*/
+
+
+.products-site .media.custom-show{
+    display: flex;
+    flex-direction: column;
+}
+
+.products-site .media.custom-show .media-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.products-site .media.custom-show .media-body img{
+    width: 200px;
+    height:200px;
+}
+
+
+.product-single-site .first-segment{
+    padding-top: 50px;
+    display: flex;
+}
+
+.product-single-site .first-segment .column-left{
+    width: 60%;
+}
+.product-single-site .first-segment .column-left img{
+    max-width:550px;
+}
+
+.product-single-site .first-segment .column-right{
+    width: 40%;
+}
+
+
+.product-single-site .second-segment{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+
+
+/*================= koszyk ================*/
+
+
+.cart-site{
+    display: flex;
+    padding-top: 60px;
+}
+
+
+.cart-site .left-column{
+    width: 70%;
+    margin: 1em;
+}
+
+.cart-site .left-column h1{
+    margin: 1em;
+}
+
+.cart-site .right-column{
+    width: 30%;
+}
+
+.cart-site .right-column form button{
+    margin-top: 40px;
+}
+
+
+/*=============== home ===================*/
+
+
+.new-products img
+{
+    width: 100%;
+}
