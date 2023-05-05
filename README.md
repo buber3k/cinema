@@ -6,7 +6,7 @@ PHP 7.4 lub nowszy
 PostgreSQL 12 lub nowszy
 Serwer Apache lub Nginx z obsługą PHP
 
-#Instalacja
+# Instalacja
 Sklonuj repozytorium na serwerze:
 
 bash
