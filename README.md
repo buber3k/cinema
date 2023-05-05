@@ -11,7 +11,7 @@ Sklonuj repozytorium na serwerze:
 
 bash
 Copy code
-git clone https://github.com/yourusername/kino-w-php.git
+git clone https://github.com/yourusername/cinema.git
 Zaktualizuj plik config.php z właściwymi danymi dostępu do bazy danych.
 
 Utwórz bazę danych o nazwie zdefiniowanej w pliku config.php oraz zaimportuj schemat bazy danych z pliku kino.sql.
